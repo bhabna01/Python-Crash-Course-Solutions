@@ -1,0 +1,20 @@
+languages=['korean','chinese','japanese']
+print(f'there are {len(languages)} here')
+languages.insert(2,'arabic')
+print('new modified list is',languages)
+languages.sort()
+print("the sorted list is ",languages)
+languages.remove('japanese')
+print("the new modified list is ",languages)
+print(sorted(languages))
+languages.pop()
+print(languages)
+languages.append('french')
+print(languages)
+del languages[0]
+print(languages)
+languages.reverse()
+print(languages)
+print(sorted(languages))
+del languages[0]
+print(languages)
