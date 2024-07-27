@@ -1,0 +1,27 @@
+quests=['Ankhi','kusum','lubna']
+
+quests.insert(0,'Tifa')
+quests.insert(1,'Mim')
+quests.append('Sadia')
+print(quests)
+print(f"{quests[0]} is invited to the dinner")
+print(f"{quests[1]} is invited to the dinner")
+print(f"{quests[2]} is invited to the dinner")
+print(f"{quests[3]} is invited to the dinner")
+print(f"{quests[4]} is invited to the dinner")
+print(f"{quests[5]} is invited to the dinner")
+print("Sorry the table won't arrive in time")
+n1=quests.pop()
+print(f'{n1} sorry for the inconvenience')
+n1=quests.pop()
+print(f'{n1} sorry for the inconvenience')
+n1=quests.pop()
+print(f'{n1} sorry for the inconvenience')
+n1=quests.pop()
+print(f'{n1} sorry for the inconvenience')
+print(quests)
+print(f"{quests[0]} you are still invited")
+print(f"{quests[1]} you are still invited")
+del quests[0]
+del quests[0]
+print(quests)
